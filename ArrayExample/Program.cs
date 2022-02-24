@@ -10,14 +10,17 @@ namespace ArrayExample
     {
         static void Main(string[] args)
         {
-            // Display number from 0 to 9
+            // Declare myArray
             int[] myArray = { 1, 2, 3, 4, 5, 22, 45, 53 };
+            // Declare arrLength to be length of myArray
             int arrLength = myArray.Length;
 
+            // For loop (initialization; condition; update)
             for (int i = 0; i < arrLength; i++)
             {
+                // For loop body
                 Console.WriteLine("array item : " + myArray[i]);
-            }
+            } // End of FOR loop
         }
     }
 }
